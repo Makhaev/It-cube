@@ -1,0 +1,92 @@
+.educational-institution {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Шапка сайта */
+.educational-institution__header {
+  background-color: #007bff; /* Яркий синий цвет */
+  color: white;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.educational-institution__title {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.educational-institution__slogan {
+  font-style: italic;
+  font-size: 1.2em;
+}
+
+/* Основной контент */
+.educational-institution__main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 20px;
+}
+
+/* Стили для контейнера с фото и описанием (MyComponent) */
+.my-component__image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+  text-align: center;
+  max-width: 500px;
+}
+
+.my-component__image {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.my-component__image-description {
+  font-style: italic;
+  color: #777;
+}
+
+/* Подпись под фото */
+.FIO {
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-bottom: 5px;
+}
+
+/* Блок "О нас" */
+.educational-institution__about {
+  text-align: justify;
+  margin-bottom: 30px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.educational-institution__subtitle {
+  font-size: 1.8em;
+  margin-bottom: 15px;
+  color: #007bff;
+}
+
+/* Подвал сайта */
+.educational-institution__footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border-top: 1px solid #ddd;
+  font-size: 0.9em;
+}

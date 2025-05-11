@@ -1,0 +1,52 @@
+.header{
+    padding: 40px;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    position: relative; /* Чтобы z-index работал */
+  
+  }
+  
+  .menu{
+    display: flex;
+    list-style: none;
+    
+  }
+  
+  
+  .menu li {
+    margin-left: 15px;
+    cursor: pointer;
+    font-size: 25px;
+  }
+
+  
+  .img-logo {
+    width: 130px;
+    height: 130px;
+    border-radius: 30px;
+    animation: logoAnimation 5s infinite ease-in-out;
+}
+
+@keyframes logoAnimation {
+    0% {
+        transform: rotate(0deg) scale(1);
+        opacity: 1;
+    }
+    25% {
+        transform: rotate(90deg) scale(1.2);
+        opacity: 0.8;
+    }
+    50% {
+        transform: rotate(180deg) scale(1);
+        opacity: 1;
+    }
+    75% {
+        transform: rotate(270deg) scale(1.2);
+        opacity: 0.8;
+    }
+    100% {
+        transform: rotate(360deg) scale(1);
+        opacity: 1;
+    }
+}

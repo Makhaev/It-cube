@@ -1,0 +1,137 @@
+
+*{
+  text-decoration: none;
+  color:#000
+}
+
+
+
+.home-page {
+  font-family: sans-serif;
+  padding: 20px; /* Общий отступ вокруг содержимого */
+  max-width: 800px; /* Ограничиваем ширину контента */
+  margin: 0 auto;
+  background-color: #f8f9fa; /* Легкий фон */
+  border-radius: 8px; /* Закругленные углы */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Небольшая тень */
+}
+
+/* Заголовок пакетов документов */
+.home-page__title {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 20px; /* Отступ снизу */
+  text-align: center;
+}
+
+/* Стили для списка документов */
+.home-page__list {
+  list-style: none; /* Убираем маркеры списка */
+  padding: 0;
+  margin-bottom: 20px; /* Отступ снизу */
+  font-size: 17px;
+}
+
+.home-page__list-item {
+  padding: 10px 15px;
+  border-bottom: 1px solid #eee; /* Разделитель */
+  color: #555;
+}
+
+.home-page__list-item:last-child {
+  border-bottom: none; /* Убираем разделитель у последнего элемента */
+}
+
+/* Стили для формы */
+.home-page__form {
+  display: flex;
+  flex-direction: column; /* Располагаем элементы формы вертикально */
+  align-items: flex-start; /* Выравниваем элементы по левому краю */
+  margin-bottom: 20px;
+}
+
+.home-page__label {
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #333;
+}
+
+.home-page__input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 20px;
+  width: 100%; /* Занимает всю ширину */
+  margin-bottom: 10px; /* Отступ снизу */
+}
+
+.home-page__button {
+  background-color: #007bff;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1.1em;
+  transition: background-color 0.2s ease; /* Плавный переход цвета */
+  align-self: flex-start; /* Выравниваем кнопку по левому краю */
+}
+
+.home-page__button:hover {
+  background-color: #0056b3; /* Более темный оттенок при наведении */
+}
+
+.home-page__message {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #28a745; /* Зеленый цвет для успешного сообщения */
+  text-align: center;
+}
+
+/* Стили для кнопки "Записаться" */
+.home-page__button {
+    background-color: #000;
+    color: white;
+    padding: 12px 24px; /* Увеличили отступы */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1.1em; /* Увеличили размер шрифта */
+    transition: background-color 0.2s ease; /* Добавили плавный переход */
+    margin-bottom: 20px; /* Увеличили отступ */
+    width: 100%; /* Занимает всю ширину */
+    text-align: center;  /* Центрируем текст внутри кнопки */
+}
+
+.home-page__button:hover {
+    background-color: #0056b3;
+}
+.home-page__submit-button {
+  width: 100%;
+  height: 40px;
+  background-color: #165ba4; /* Темно-синий цвет */
+  color: white;
+  border: none;
+  border-radius: 6px; /* Закругленные углы */
+  cursor: pointer;
+  font-size: 1.1em;
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Добавляем переходы для анимации */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Тень для визуального эффекта */
+  font-weight: 500; /* Полужирный шрифт */
+}
+
+.home-page__submit-button:hover {
+  background-color: #124d8c; /* Более темный оттенок при наведении */
+  transform: translateY(-2px); /* Небольшой сдвиг вверх при наведении */
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15); /* Усиление тени при наведении */
+}
+
+.home-page__submit-button:active {
+  transform: translateY(0); /* Возвращаем кнопку на место при клике */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Уменьшаем тень при клике */
+}
+
+
+
+
+

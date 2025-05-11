@@ -7,32 +7,35 @@
 
 .App{
   margin: 0 auto;
-  background-image: url(./img/background.jpg);
-  background-size: cover;
-  max-height: 100%;
+  position: relative; /* Важно: нужен для позиционирования .bacground */
+}
+.bacground {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* Градиент для мягкого перехода */
+  background: linear-gradient(to bottom, #cce2ff, #ffffff);
+  opacity: 0.8;
+  z-index: -2;
 }
 
-.header{
-  padding: 40px;
-  display: flex;
-  align-items:center;
-  justify-content: space-around;
+/* Дополнительный слой с узором */
+.bacground::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* Узор "шума" для текстуры */
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAIUlEQVQ4T2NkoBAwUBLwogwAAf88sEGwAQAA");
+  opacity: 0.1;
+  z-index: -1;
 }
 
-.menu{
-  display: flex;
-  list-style: none;
-  
-}
-
-
-.menu li {
-  margin-left: 15px;
-  cursor: pointer;
-}
-
-.img-logo{
-  width: 130px;
-  height: 130px;
-  border-radius: 30px;
+.menu-item{
+  text-decoration: none;
+  color: black;
 }
