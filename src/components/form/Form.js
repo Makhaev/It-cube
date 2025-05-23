@@ -8,7 +8,7 @@ const Form = ({message,setBirthDate,handleSubmit,setFio,fio,birthDate})=>{
         <label className="home-page__label"> 
           ФИО ребенка:
           <input
-            className="home-page__input" // Элемент: home-page__input
+            className="home-page__input" 
             type="text"
             value={fio}
             onChange={(e) => setFio(e.target.value)}
@@ -27,11 +27,11 @@ const Form = ({message,setBirthDate,handleSubmit,setFio,fio,birthDate})=>{
           />
         </label>
         <br />
-        <button className="home-page__submit-button" type="submit"> {/* Элемент: home-page__submit-button */}
+        <button className="home-page__submit-button" type="submit"> 
          Записаться
         </button>
       </form>
-      {message && <p className="home-page__message">{message}</p>} {/* Элемент: home-page__message */}
+      {message && <p className="home-page__message">{message}</p>} 
    </>
   )
 }

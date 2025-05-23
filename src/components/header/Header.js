@@ -12,7 +12,7 @@ function Header (){
           <ul className='menu'>
             <li className='menu-list'><Link className='menu-item' to="/">Главная</Link></li>
             <li className="menu-list"><Link className='menu-item' to="/news">Обучение</Link></li>
-            <li className="menu-list"><Link to="/news">Конкурсы</Link></li>
+            <li className="menu-list"><Link to="/news">Новости</Link></li>
             <li className='menu-list'>Документы</li>
             <li className='menu-list'>Федеральный проект</li>
             <li className='menu-list'><Link to="/teachers">Педагоги</Link></li>

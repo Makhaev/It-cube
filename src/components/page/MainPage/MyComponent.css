@@ -85,8 +85,53 @@
 /* Подвал сайта */
 .educational-institution__footer {
   text-align: center;
-  padding: 10px;
+  padding: 40px;
   background-color: #f0f0f0;
   border-top: 1px solid #ddd;
   font-size: 0.9em;
+  display: flex;
+  justify-content: center;
+
+
+}
+
+
+
+.slider {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  
+}
+
+.slide {
+  text-align: center;
+ 
+  
+}
+.Socialmedia {
+  display: flex;
+  justify-content: center; /* Центрирование иконок */
+  gap: 20px; /* Промежуток между иконками */
+  
+  background-color: #f2f2f2; /* Цвет фона блока */
+  border-radius: 10px; /* Закругленные углы */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Тень для блока */
+  margin-left: 400px;
+  
+}
+
+.Socialmedia a {
+  display: inline-block;
+  border-radius: 50%; /* Круглая форма фона */
+  background-color: #ffffff; /* Цвет фона иконок */
+  transition: transform 0.3s, background-color 0.3s; /* Плавный переход для эффектов */
+}
+
+.Socialmedia a:hover {
+  background-color: #e0e0e0; /* Цвет фона при наведении */
+  transform: scale(1.1); /* Увеличение иконки при наведении */
 }
